@@ -66,7 +66,7 @@ export default function ProductDisplay() {
                   </div>
                 </div>
                 <p>
-                  Boost engagement by up to 85%, even when you're not online.
+                  Boost engagement by up to 85%, even when you&apos;re not online.
                 </p>
               </div>
               <div className="flex justify-center items-center gap-4">
@@ -333,7 +333,7 @@ export default function ProductDisplay() {
             <p className="mt-4 text-lg text-left leading-light px-10">
               Handling multiple inquiries, after-sales support, and client
               communication can eat up valuable creative time. Sulio AI helps
-              you manage all communications in one place, so you're not
+              you manage all communications in one place, so you&apos;re not
               constantly answering the same questions.
             </p>
           </div>
@@ -346,7 +346,7 @@ export default function ProductDisplay() {
                 <p className="text-center leading-light">
                   Handling multiple inquiries, after-sales support, and client
                   communication can eat up valuable creative time. Sulio AI
-                  helps you manage all communications in one place, so you're
+                  helps you manage all communications in one place, so you&apos;re
                   not constantly answering the same questions.
                 </p>
               </div>

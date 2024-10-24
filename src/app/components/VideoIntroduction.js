@@ -5,7 +5,7 @@ export default function VideoIntroduction() {
     <div className="min-h-screen h-screen flex flex-col justify-center text-white items-center bg-cover bg-center">
       <div className="flex justify-center items-center bg-white text-3xl md:text-4xl font-bold text-black w-full h-[30%] md:flex-row flex-col">
         <div className="h-full w-full flex items-center md:pl-20 px-4 md:px-0">
-          People won't be replaced by AI, but by those who use it.
+          People won&apos;t be replaced by AI, but by those who use it.
         </div>
         <div className="w-full h-1/2 md:h-full">
           <Image
@@ -45,7 +45,7 @@ export default function VideoIntroduction() {
               Artist AI Chatbot
             </div>
             <div className="w-full md:w-3/4 text-start text-wrap font-bold text-lg">
-              Meet Sulio Art's all-in-one product experience AI Chatbot,
+              Meet Sulio Art&apos;s all-in-one product experience AI Chatbot,
               enhanced with artificial intelligence.
             </div>
           </div>
