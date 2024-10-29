@@ -216,7 +216,7 @@ export default function FinalCallToAction() {
                 </svg>
               </div>
               <div className="text-lg md:text-xl text-start leading-none font-bold">
-                Suilio Art
+                Sulio Art
                 <br />
                 Artist AI Chatbot
               </div>

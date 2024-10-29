@@ -7,8 +7,8 @@ import Image from "next/image";
 export default function ProductDisplay() {
   useEffect(() => {
     AOS.init({
-      duration: 600,
-      easing: "ease-in",
+      duration: 800,
+      easing: "ease",
       once: false,
     });
   }, []);
@@ -16,7 +16,7 @@ export default function ProductDisplay() {
   return (
     <div className="min-h-screen w-full overflow-y-auto text-white overflow-x-hidden">
       <div
-        data-aos="fade-in"
+        data-aos="fade-right"
         className="h-screen w-full flex flex-col justify-start items-center gap-8"
       >
         <div className="hidden md:block text-4xl font-bold text-center">
@@ -92,7 +92,7 @@ export default function ProductDisplay() {
         </div>
       </div>
       <div
-        data-aos="fade-in"
+        data-aos="fade-left"
         className="h-screen w-full flex flex-col justify-start items-center gap-8"
       >
         <div className="hidden md:block text-4xl font-bold text-center">
@@ -170,7 +170,7 @@ export default function ProductDisplay() {
         </div>
       </div>
       <div
-        data-aos="fade-in"
+        data-aos="fade-right"
         className="h-screen w-full flex flex-col justify-start items-center gap-8"
       >
         <div className="hidden md:block text-4xl font-bold text-center">
@@ -242,7 +242,7 @@ export default function ProductDisplay() {
         </div>
       </div>
       <div
-        data-aos="fade-in"
+        data-aos="fade-left"
         className="h-screen w-full flex flex-col justify-start items-center gap-8"
       >
         <div className="hidden md:block text-4xl font-bold text-center">
@@ -318,7 +318,7 @@ export default function ProductDisplay() {
         </div>
       </div>
       <div
-        data-aos="fade-in"
+        data-aos="fade-right"
         className="h-screen w-full flex flex-col justify-start items-center gap-8"
       >
         <div className="hidden md:block text-4xl font-bold text-center">

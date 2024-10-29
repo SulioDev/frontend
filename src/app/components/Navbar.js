@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className="navbar md:px-10 max-h-16">
       <div className="flex-1">
-        <div className="btn btn-ghost flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <div className="relative bg-white w-16 h-full">
             <svg
               version="1.1"
@@ -30,7 +30,7 @@ export default function Navbar() {
             </svg>
           </div>
           <div className="text-lg md:text-xl text-start leading-none">
-            Suilio Art
+            Sulio Art
             <br />
             Artist AI Chatbot
           </div>
@@ -68,12 +68,13 @@ export default function Navbar() {
             role="button"
             className="btn btn-ghost btn-circle avatar"
           >
-            <div className="w-10 rounded-full">
+            <div className="w-10 rounded-full overflow-hidden">
               <Image
                 alt="Tailwind CSS Navbar component"
                 src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
                 fill={true}
-                objectFit="contain"
+                className="rounded-full"
+                objectFit="cover"
               />
             </div>
           </div>
