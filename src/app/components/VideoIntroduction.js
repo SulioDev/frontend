@@ -2,23 +2,23 @@ import Image from "next/image";
 
 export default function VideoIntroduction() {
   return (
-    <div className="min-h-screen h-screen flex flex-col justify-center text-white items-center bg-cover bg-center">
-      <div className="flex justify-center items-center bg-white text-3xl md:text-4xl font-bold text-black w-full h-[30%] md:flex-row flex-col">
+    <div className="min-h-screen flex flex-col justify-center text-white items-center bg-cover bg-center">
+      <div className="flex justify-center items-center bg-white text-3xl md:text-4xl font-bold text-black w-full h-fit md:flex-row flex-col">
         <div className="h-full w-full flex items-center md:pl-20 px-4 md:px-0">
           People won&apos;t be replaced by AI, but by those who use it.
         </div>
-        <div className="w-full h-1/2 md:h-full">
+        <div className="w-full h-full md:h-full">
           <Image
             src="/media/section4overlay.gif"
             loading="lazy"
             alt="Description of the image"
             width={10000}
             height={10000}
-            className="w-full h-full origin-top scale-y-[1.56]"
+            className="relative top-3/4 w-full h-full origin-top"
           />
         </div>
       </div>
-      <div className="h-[70%] w-full py-8 px-4 md:px-20">
+      <div className="h-fit w-full py-8 px-4 md:px-20">
         <div className="rounded-3xl w-full h-full border-4 border-[rgb(180,148,148)] p-4 flex justify-center items-center flex-col md:flex-row">
           <video
             className="rounded-3xl h-1/2 md:h-full w-full md:w-2/3 object-fill z-50"

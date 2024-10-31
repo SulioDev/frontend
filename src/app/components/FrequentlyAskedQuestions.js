@@ -6,8 +6,8 @@ export default function FrequentlyAskedQuestions() {
         <div className="h-full w-full flex justify-center items-center md:items-start px-4">Frequently<br/> Asked<br/> Questions</div>
       </div>
       <div className="flex justify-center items-center overflow-y-auto h-full px-4 w-full">
-        <ul className="flex items-center flex-col w-full gap-2 md:gap-6">
-          <li className="collapse collapse-arrow join-item border border-base-content">
+        <ul className="flex justify-evenly items-center flex-col w-full gap-6">
+          <li className="collapse collapse-arrow border-[rgb(180,148,148)] join-item border md:p-6">
             <input type="radio" name="my-accordion-4" />
             <div className="collapse-title text-xl sm:text-2xl font-medium  text-justify hyphens-auto [word-spacing:-0.1em]">
               How can Sulio AI help me sell more art?
@@ -22,7 +22,7 @@ export default function FrequentlyAskedQuestions() {
               </p>
             </div>
           </li>
-          <li className="collapse collapse-arrow join-item border border-base-content">
+          <li className="collapse collapse-arrow border-[rgb(180,148,148)] join-item border md:p-6">
             <input type="radio" name="my-accordion-4" />
             <div className="collapse-title text-xl sm:text-2xl font-medium text-justify hyphens-auto [word-spacing:-0.1em]">
               Do I need any technical skills to use the AI chatbot?
@@ -37,7 +37,7 @@ export default function FrequentlyAskedQuestions() {
               </p>
             </div>
           </li>
-          <li className="collapse collapse-arrow join-item border border-base-content">
+          <li className="collapse collapse-arrow border-[rgb(180,148,148)] join-item border md:p-6">
             <input type="radio" name="my-accordion-4" />
             <div className="collapse-title text-xl sm:text-2xl font-medium">
               How secure is the platform for handling my transactions?
@@ -52,7 +52,7 @@ export default function FrequentlyAskedQuestions() {
               </p>
             </div>
           </li>
-          <li className="collapse collapse-arrow join-item border border-base-content">
+          <li className="collapse collapse-arrow border-[rgb(180,148,148)] join-item border md:p-6">
             <input type="radio" name="my-accordion-4" />
             <div className="collapse-title text-xl sm:text-2xl font-medium text-justify hyphens-auto [word-spacing:-0.1em]">
               Can I customize the way Sulio AI interacts with my followers?

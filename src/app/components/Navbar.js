@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Navbar() {
   return (
     <div className="navbar md:px-10 max-h-16">
@@ -68,15 +66,11 @@ export default function Navbar() {
             role="button"
             className="btn btn-ghost btn-circle avatar"
           >
-            <div className="w-10 rounded-full overflow-hidden">
-              <Image
-                alt="Tailwind CSS Navbar component"
-                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
-                fill={true}
-                className="rounded-full"
-                objectFit="cover"
-              />
-            </div>
+            <img
+              alt="user-avatar"
+              src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+              className="rounded-full"
+            />
           </div>
           <ul
             tabIndex={0}
