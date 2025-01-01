@@ -1,6 +1,8 @@
+"use client";
+
 import React, { useEffect } from 'react';
 
-const FacebookLogin = () => {
+const page = () => {
   useEffect(() => {
     // Load Facebook SDK
     const loadFacebookSDK = () => {
@@ -72,4 +74,4 @@ const FacebookLogin = () => {
   );
 };
 
-export default FacebookLogin;
+export default page;
