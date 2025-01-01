@@ -1,3 +1,4 @@
+import FacebookLogin from "./components/FacebookLogin";
 import FinalCallToAction from "./components/FinalCallToAction";
 import FrequentlyAskedQuestions from "./components/FrequentlyAskedQuestions";
 import Hero from "./components/Hero";
@@ -9,6 +10,7 @@ import VideoIntroduction from "./components/VideoIntroduction";
 export default function Home() {
   return (
     <main>
+    <FacebookLogin/>
       <Navbar />
       <Hero />
       <ProductDisplay/>
