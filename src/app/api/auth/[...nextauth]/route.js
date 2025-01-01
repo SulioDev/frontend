@@ -4,11 +4,11 @@ import FacebookProvider from "next-auth/providers/facebook";
 const authOptions = {
   providers: [
     FacebookProvider({
-      clientId: "1075064627580974",
-      clientSecret: "bb349a53fe5cde999fce55c14df7959e",
+      clientId: process.env.FACEBOOK_ID,
+      clientSecret: process.env.FACEBOOK_SECRET,
       authorization: {
         params: {
-          scope: 'email,public_profile', // Add any additional permissions needed
+          scope: 'email,public_profile',
         },
       },
     }),
@@ -16,8 +16,8 @@ const authOptions = {
   pages: {
     signIn: '/auth/signin', // Optional custom sign-in page
   },
+  secret: process.env.NEXTAUTH_SECRET, // Add this line for security
 };
 
-// Export named functions for each HTTP method
-export const GET = (req, res) => NextAuth(req, res, authOptions);
-export const POST = (req, res) => NextAuth(req, res, authOptions);
+// Export API route handler
+export default (req, res) => NextAuth(req, res, authOptions);
