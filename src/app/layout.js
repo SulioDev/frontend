@@ -1,6 +1,6 @@
 import "./globals.css";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Sulio Art",
   description: "Sulio Art | Artist AI Chatbot",
   other: {
